@@ -1,6 +1,7 @@
 // src/components/SkillsMarquee.jsx
 import { useEffect, useRef } from "react";
 import InfiniteMarqueeLib from "vanilla-infinite-marquee";
+
 import { LuAsterisk } from "react-icons/lu";
 
 export default function SkillsMarquee({

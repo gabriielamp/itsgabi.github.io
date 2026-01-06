@@ -2,21 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "vanilla-infinite-marquee/infinite-marquee.css";
+
+
 @font-face {
   font-family: "Feeling Passionate";
-  src: url("./assets/fonts/FEELING PASSIONATE PERSONAL USE ONLY.ttf") format("truetype");
-  font-weight: normal;
+  src: url("/fonts/passionate.TTF") format("truetype");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Degular Demo";
-  src: url("./assets/fonts/DEGULARDEMO-BLACK.otf") format("opentype");
-  font-weight: 400;
+  src: url("/fonts/degulardemo.OTF") format("opentype");
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
+
+
 
 /* Utilidad para texto con contorno blanco */
 @layer utilities {
