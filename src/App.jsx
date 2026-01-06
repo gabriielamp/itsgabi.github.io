@@ -13,6 +13,7 @@ import Portfolio from './components/Portfolio'
 import SolutionsCarousel from "./components/SolutionesCarousel";
 import SolutionsCards from "./components/SolutionesCards";
 import AboutMe from "./components/AboutMe";
+import About from "./components/About";
 import Testimonials from "./components/Testimonials";
 import WorkProcess from "./components/WorkProcess";
 import Journey from "./components/Journey";
@@ -30,23 +31,27 @@ function App() {
 
         <Hero />
         <SkillsMarquee />
-        <AboutMe />
-       {/*  <Journey /> */}
-        
+        <Portfolio />
+
+
+        {/* <AboutMe /> */}
+        {/*  <Journey /> */}
         {/* <SolutionsCarousel /> */}
 
         <SolutionsCards />
-        <WorkProcess />
+        <About /> 
         <SkillsMarquee />
-        <Portfolio />
+
+
+        <WorkProcess />
         <Testimonials />
-        
+
 
         <Footer />
 
       </div>
 
-       {/* Botón flotante */}
+      {/* Botón flotante */}
       <ScrollTopBtn />
 
       <WhatsAppFab

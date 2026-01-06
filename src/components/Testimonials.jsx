@@ -15,7 +15,7 @@ const testimonials = [
     text:
       "Trabajar con Gabriela fue una experiencia muy buena. Entendió rápido lo que queríamos, cumplió con los tiempos y nos explicó todo con mucha claridad. La recomiendo sin dudar.",
     name: "Natalia Sanchez",
-    role: "MARKETING MANAGER EN LEGACY",
+    role: "Marketing Manager en Legacy",
     img: img1,
     linkedin: "https://www.linkedin.com/in/natalia-sanchez-1942a6231/",
   },
@@ -23,7 +23,7 @@ const testimonials = [
     text:
       "Gabriela captó la idea desde el principio. Nos ayudó a mejorar varias cosas del proyecto y siempre estuvo pendiente de cada detalle. Muy comprometida con su trabajo.",
     name: "Alejandro Barja",
-    role: "Gestor de proyectos",
+    role: "Gestor de proyectos en Syncra",
     img: img2,
     linkedin: "https://www.linkedin.com/in/alejandrobarja/",
   },
@@ -111,12 +111,12 @@ export default function Testimonials() {
     <section id="testimonios" className="bg-[#F0F3FF] py-16">
       <div className="max-w-6xl mx-auto px-6 md:px-8 font-poppins">
         {/* Título */}
-        <div className="flex flex-col text-left">
+        <div className="flex flex-col text-center text-[#2262EA]">
           <h3 className="uppercase text-[11px] md:text-xs font-semibold text-gray-600 tracking-widest">
             Testimonios
           </h3>
-          <h2 className="text-gray-800 text-2xl sm:text-3xl md:text-4xl font-bold mt-2 font-insaniburger">
-            ¿Qué opinan las personas <span className="text-[#2262EA]">de mi trabajito?</span>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-2 font-passionate">
+            ¿Qué opinan las personas <span className="text-[#000000]">de mi trabajito?</span>
           </h2>
         </div>
 

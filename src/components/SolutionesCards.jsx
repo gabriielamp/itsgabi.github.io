@@ -112,12 +112,16 @@ export default function SolutionsGrid() {
         {/* Encabezado */}
         <div className="text-center text-white">
           <div className="flex flex-col items-center">
-            <span className="inline-block text-sm tracking-[0.18em] opacity-90 font-poppins">
-              SOLUCIONES
+            <span className="inline-block text-sm tracking-[0.18em] opacity-90 font-figtree font-bold">
+              SERVICIOS
             </span>
-            <div className="mt-3 inline-block bg-white/95 text-[#1E56F0] px-6 py-2 shadow-sm font-insaniburger text-2xl md:text-4xl">
-              SOLUCIONES PARA TU MARCA
+            <div className="text-[#ffffff] px-6 py-2 font-passionate text-2xl md:text-4xl">
+              Soluciones para tu marca
             </div>
+            <p className="font-poppins mt-4 max-w-2xl text-sm md:text-base opacity-90">
+              Soy apasionada por el arte en todas sus formas, encuentro inspiración en la creatividad y el diseño.
+              Amante del café, siempre acompañado de buenas ideas y código bien estructurado.
+            </p>
           </div>
         </div>
 

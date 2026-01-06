@@ -31,12 +31,12 @@ export default function WorkProcess() {
             <div className="max-w-6xl mx-auto text-center px-6">
                 {/* Subtítulo */}
                 {/* <p className="text-sm text-blue-500 font-medium">// Our Work Process</p> */}
-                <span className="text-sm inline-block text-blue-500 font-bold tracking-[0.18em] opacity-90 font-poppins uppercase">
+                <span className="text-sm inline-block text-[#2262EA] font-bold tracking-[0.18em] font-poppins uppercase">
                     Flujo de Trabajo
                 </span>
                 {/* Título */}
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mt-2 uppercase font-insaniburger">
-                    Mi proceso de <span className="text-blue-600">Trabajo</span>
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mt-2  font-passionate">
+                    Mi proceso de <span className="text-[#2262EA]">Trabajo</span>
                 </h2>
 
                 {/* Steps */}

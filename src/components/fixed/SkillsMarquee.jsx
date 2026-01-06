@@ -14,7 +14,7 @@ export default function SkillsMarquee({
     "PHP",
     "UX/UI",
   ],
-  speed = 340000,
+  speed = 15000,
   duplicateCount = 4,
   bgClass = "bg-[#1E56F0]",
   heightClass = "h-[10vh]",
@@ -49,7 +49,7 @@ export default function SkillsMarquee({
         {items.map((txt, i) => (
           <span key={i} className="inline-flex items-center gap-6 mx-8 leading-none align-middle">
             <span className="text-6xl tracking-wide text-outline">{txt}</span>
-            <LuAsterisk className="text-white text-[48px] stroke-[2px] inline-block align-middle" />
+            <LuAsterisk className="text-white text-[48px] stroke-[1px] inline-block align-middle" />
           </span>
         ))}
       </div>
@@ -58,8 +58,8 @@ export default function SkillsMarquee({
       <style>{`
         .text-outline {
           color: transparent;
-          -webkit-text-stroke: 2px #fff;
-          text-stroke: 2px #fff;
+          -webkit-text-stroke: 1px #fff;
+          text-stroke: 1px #fff;
         }
       `}</style>
     </div>

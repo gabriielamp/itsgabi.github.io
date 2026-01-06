@@ -10,30 +10,26 @@ import imgSinganiSanPedro from "../assets/images/mockups/singani.png";
 
 export default function Portfolio() {
     return (
-        <section id="trabajos" className="relative overflow-hidden py-16 bg-white bg-grid">
-            {/* Título horizontal (móvil/tablet) */}
-            <div className="px-6 md:px-8 lg:hidden mb-1 items-center justify-center">
-                <h2 className="text-center font-insaniburger text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide text-[#2262EA]">
-                    ALGUNOS DE MIS TRABAJOS
-                </h2>
+        <section id="trabajos" className="relative overflow-hidden py-16 bg-white">
+
+            {/* Encabezado */}
+            <div className="text-center text-[#2262EA] mb-6">
+                <div className="flex flex-col items-center">
+                    <span className="inline-block text-sm tracking-[0.18em] opacity-90 font-figtree font-bold">
+                        PORTFOLIO
+                    </span>
+                    <div className="px-6 py-2 font-passionate text-2xl md:text-4xl">
+                       Trabajos Más Recientes
+                    </div>
+                    <p className="font-poppins mt-4 max-w-2xl text-sm md:text-base opacity-90 text-[#6B7280]">
+                        Soy apasionada por el arte en todas sus formas, encuentro inspiración en la creatividad y el diseño.✦
+                    </p>
+                </div>
             </div>
 
-            {/* Título lateral vertical (solo desktop) */}
-            {/* <div className="hidden lg:flex absolute inset-y-0 left-0 z-30 items-center">
-                <h2 className="[writing-mode:vertical-rl] rotate-180 lg:ml-[6rem] xl:ml-[10rem] font-insaniburger text-6xl font-bold tracking-wide text-[#2262EA]">
-                    ALGUNOS DE MIS TRABAJOS
-                </h2>
-            </div> */}
-            <div className="hidden lg:flex z-30 items-center text-center mb-10 justify-center">
-                <h2 className="font-insaniburger text-5xl font-bold tracking-wide text-[#2262EA]">
-                    ALGUNOS DE MIS TRABAJOS
-                </h2>
-            </div>
 
             {/* Contenido */}
             <div className="z-30 relative pl-0">
-
-
 
                 <div
                     className="
@@ -46,7 +42,7 @@ export default function Portfolio() {
                     {/* Card 1: Mala Events */}
                     <div
                         className="
-              rounded-[24px] border-2 border-[#2262EA] p-6 md:p-8 bg-white shadow-md
+              rounded-[24px] border-2 border-[#2262EA] p-6 md:p-8  bg-white
               lg:col-span-3 lg:row-span-1
             "
                     >
@@ -59,10 +55,10 @@ export default function Portfolio() {
                         </div>
                         <div className="mt-4 flex items-center justify-between">
                             <div>
-                                <p className="text-sm md:text-base text-gray-800">Sitio Web Corporativo</p>
-                                <h3 className="text-xl md:text-2xl font-bold text-[#2262EA] uppercase">Mala Events</h3>
-                                <p className="text-xs md:text-sm text-gray-500 mt-1">
-                                    En colaboración con <span className="font-semibold text-[#2262EA]">Plasti Studio.</span>
+                                <p className="text-sm text-gray-800">Sitio Web Corporativo</p>
+                                <h3 className="text-xl md:text-2xl font-semibold text-stone-900">Mala Events</h3>
+                                <p className="text-xs md:text-sm text-gray-500 mt-1 font-medium">
+                                    En colaboración con <span className="font-bold text-[#2262EA]">Plasti Studio.</span>
                                 </p>
                             </div>
                             <a
@@ -79,7 +75,7 @@ export default function Portfolio() {
                     {/* Card 2: Mi Dulce Inspiración (design) */}
                     <div
                         className="
-              rounded-[24px] border-2 border-[#2262EA] p-6 md:p-8 bg-white shadow-md
+              rounded-[24px] border-2 border-[#2262EA] p-6 md:p-8 bg-white
               lg:col-span-2 lg:row-span-1 lg:col-start-4
             "
                     >
@@ -92,8 +88,8 @@ export default function Portfolio() {
                         </div>
                         <div className="mt-4 flex items-center justify-between">
                             <div>
-                                <p className="text-sm md:text-base text-gray-800">Diseño Web</p>
-                                <h3 className="text-xl md:text-2xl font-bold text-[#2262EA] uppercase">
+                                <p className="text-sm text-gray-800">Diseño Web</p>
+                                <h3 className="text-xl md:text-2xl font-semibold text-stone-900">
                                     Mi Dulce Inspiración
                                 </h3>
                                 <p className="text-xs md:text-sm text-gray-500 mt-1">
@@ -114,7 +110,7 @@ export default function Portfolio() {
                     {/* Card 3: LegalFlow */}
                     <div
                         className="
-              rounded-[24px] border-2 border-[#2262EA] p-6 md:p-8 bg-white shadow-md
+              rounded-[24px] border-2 border-[#2262EA] p-6 md:p-8 bg-white
               lg:col-span-2 lg:row-span-1 lg:row-start-2
             "
                     >
@@ -127,15 +123,15 @@ export default function Portfolio() {
                         </div>
                         <div className="mt-4 flex items-center justify-between">
                             <div>
-                                <p className="text-sm md:text-base text-gray-800">Landing Page</p>
-                                <h3 className="text-xl md:text-2xl font-bold text-[#2262EA] uppercase">LegalFlow</h3>
-                                <p className="text-xs md:text-sm text-gray-500 mt-1">
+                                <p className="text-sm text-gray-800">Landing Page</p>
+                                <h3 className="text-xl md:text-2xl font-semibold text-stone-900">LegalFlow</h3>
+                                <p className="text-xs md:text-sm text-gray-500 mt-1 font-medium">
                                     En colaboración con{" "}
                                     <a
                                         href="https://syncra-team.com/"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="font-semibold text-[#2262EA] hover:underline"
+                                        className="text-[#2262EA] hover:underline font-bold"
                                     >
                                         Syncra
                                     </a>
@@ -156,7 +152,7 @@ export default function Portfolio() {
                     {/* Card 4: Singani San Pedro */}
                     <div
                         className="
-              rounded-[24px] border-2 border-[#2262EA] p-6 md:p-8 bg-white shadow-md
+              rounded-[24px] border-2 border-[#2262EA] p-6 md:p-8 bg-white
               lg:col-span-3 lg:row-span-1 lg:row-start-2
             "
                     >
@@ -169,9 +165,9 @@ export default function Portfolio() {
                         </div>
                         <div className="mt-4 flex items-center justify-between">
                             <div>
-                                <p className="text-sm md:text-base text-gray-800">E-commerce</p>
-                                <h3 className="text-xl md:text-2xl font-bold text-[#2262EA] uppercase">
-                                    SINGANI SAN PEDRO
+                                <p className="text-sm text-gray-800">E-commerce</p>
+                                <h3 className="text-xl md:text-2xl font-semibold text-stone-900">
+                                    Singani San Pedro
                                 </h3>
                                 <p className="text-xs md:text-sm text-gray-500 mt-1">
                                     Tienda online que refleja la esencia y tradición de la marca.

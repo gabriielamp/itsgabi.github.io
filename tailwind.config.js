@@ -4,12 +4,24 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        figtree: ['Figtree', 'system-ui', 'sans-serif'], // Sobrescribe la base
+        figtree: ['Figtree', 'system-ui', 'sans-serif'],
         insaniburger: ['Insaniburger', 'sans-serif'],
         insaniburgerCheese: ['"Insaniburger with Cheese"', 'sans-serif'],
+
         poppins: ['Poppins', 'sans-serif'],
-        // Opcional: vuelve Poppins la fuente "sans" global
-        sans: ['Poppins', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'Apple Color Emoji', 'Segoe UI Emoji'],
+
+        degular: ['"Degular Demo"', 'system-ui', 'sans-serif'],
+        passionate: ['"Feeling Passionate"', 'cursive'],
+
+        sans: [
+          'Poppins',
+          'ui-sans-serif',
+          'system-ui',
+          'Segoe UI',
+          'Roboto',
+          'Helvetica',
+          'Arial',
+        ],
       },
     },
   },
