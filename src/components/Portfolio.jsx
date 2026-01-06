@@ -21,7 +21,7 @@ export default function Portfolio() {
                     <div className="px-6 py-2 font-passionate text-2xl md:text-4xl">
                        Trabajos Más Recientes
                     </div>
-                    <p className="font-poppins mt-4 max-w-2xl text-sm md:text-base opacity-90 text-[#6B7280]">
+                    <p className="font-poppins mt-4 max-w-2xl text-sm md:text-base opacity-90 text-[#6B7280] hidden">
                         Soy apasionada por el arte en todas sus formas, encuentro inspiración en la creatividad y el diseño.✦
                     </p>
                 </div>

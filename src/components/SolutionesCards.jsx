@@ -118,7 +118,7 @@ export default function SolutionsGrid() {
             <div className="text-[#ffffff] px-6 py-2 font-passionate text-2xl md:text-4xl">
               Soluciones para tu marca
             </div>
-            <p className="font-poppins mt-4 max-w-2xl text-sm md:text-base opacity-90">
+            <p className="font-poppins mt-4 max-w-2xl text-sm md:text-base opacity-90 hidden">
               Soy apasionada por el arte en todas sus formas, encuentro inspiración en la creatividad y el diseño.
               Amante del café, siempre acompañado de buenas ideas y código bien estructurado.
             </p>

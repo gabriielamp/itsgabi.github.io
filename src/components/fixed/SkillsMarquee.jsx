@@ -14,7 +14,7 @@ export default function SkillsMarquee({
     "PHP",
     "UX/UI",
   ],
-  speed = 15000,
+  speed = 30000,
   duplicateCount = 4,
   bgClass = "bg-[#1E56F0]",
   heightClass = "h-[10vh]",
